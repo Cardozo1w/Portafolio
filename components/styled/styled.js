@@ -40,6 +40,7 @@ export const GridNosotros = styled.div`
 export const GridSkills = styled.div`
 display: grid;
 grid-template-columns: repeat(5, 1fr);
+row-gap: 50px;
 `;
 
 export const CardSkill = styled.a`
@@ -50,7 +51,6 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 font-size: 75px;
-margin-bottom: 50px;
 transition: .2s all ease;
 
 &:hover{
