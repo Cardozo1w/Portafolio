@@ -1,0 +1,37 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr
+}
+
+.sobre{
+    margin-top: 100px !important;
+}
+
+.sobre h1{
+    text-align: center;
+    margin-bottom: 50px !important;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about h2{
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin-top: 100px !important;
+}
+
+.skills h1{
+    text-align: center;
+    margin-bottom: 50px !important;
+}
