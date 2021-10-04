@@ -11,7 +11,7 @@ export const Info = styled.div`
   }
 
   p {
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 400;
   }
 `;
@@ -42,6 +42,28 @@ display: grid;
 grid-template-columns: repeat(5, 1fr);
 `;
 
-export const CardSkill = styled.div`
-padding: 100px 100px;
+export const CardSkill = styled.a`
+color: #000;
+text-decoration: none;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 75px;
+margin-bottom: 50px;
+transition: .2s all ease;
+
+&:hover{
+  color: #2d918d;
+  cursor: pointer;
+
+}
+
+p{
+  font-size: 25px;
+}
+
+svg{
+  
+}
 `
