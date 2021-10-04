@@ -47,7 +47,10 @@ const Index = () => {
         <h1>Mis habilidades</h1>
         <GridSkills>
           <CardSkill>
-            <p>Html 5</p>
+            <p>Html5</p>
+          </CardSkill>
+          <CardSkill>
+            <p>Css3</p>
           </CardSkill>
         </GridSkills>
       </Contenedor>
