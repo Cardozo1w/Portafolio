@@ -7,12 +7,13 @@ export const Info = styled.div`
 
   h1 {
     color: #5cbcb9;
-    font-size: 40px;
+    font-size: 37px;
   }
 
   p {
     font-size: 23px;
     font-weight: 400;
+    margin: 0;
   }
 `;
 
