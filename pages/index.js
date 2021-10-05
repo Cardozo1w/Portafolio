@@ -10,7 +10,7 @@ import {
 
 import imgHeader from "../assets/img-hero.svg";
 import styled from "styled-components";
-import oscar from "../assets/oscar.png";
+import oscar from "../assets/oscar.webp";
 import { Boton } from "../components/boton/botones";
 import Habilidades from "../components/habilidades/habilidades";
 
