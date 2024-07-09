@@ -7,8 +7,8 @@ const Navegacion = () => {
   return (
     <div id="inicio">
         <Nav>
-          <h1>Cardoso</h1>
-          <nav>
+          {/* <h1>Cardoso</h1> */}
+          <nav className="navigation">
             <Link href="#inicio">Inicio</Link>
             <Link href="#about">Sobre mi</Link>
             <Link href="#habilidades">Habilidades</Link>
